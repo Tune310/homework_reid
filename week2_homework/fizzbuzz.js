@@ -24,6 +24,30 @@ for (var i = 0; i <= 100; i++) {
   }
 }
 
+/* Part 2 using a variable
+
+var total = 1000;
+
+for (var i = 0; i <= total; i++) {
+  if ( i % 100 == 0 && i % 10 == 0) {
+    console.log("fizzbuzz");
+  }
+  else if ( i % 100 == 0) {
+    console.log("fizz");
+  }
+  else if ( i % 10 == 0) {
+    console.log("buzz")
+  }
+  else if ( i % 5 == 0) {
+    console.log("Divisible by 5")
+  }
+  else {
+    console.log(i);
+  }
+}
+
+*/
+
 
 // ##### Step 2:
 // Add an `if/else` statement that logs the string `"fizz"` if the value being iterated over is divisible by `3`; otherwise, log out the value.
