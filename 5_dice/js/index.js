@@ -23,17 +23,17 @@ var random1;
 var random2;
 var playerOne = {
     score: 0,
-    maxScore: 5
+    maxScore: 10
 }
 var playerTwo = {
     score: 0,
-    maxScore: 5
+    maxScore: 10
 }
 
 var game = {
     name: 'Lucky 7',
     score: 0,
-    maxScore: 5,
+    maxScore: 10,
     money: 10
 }
 
