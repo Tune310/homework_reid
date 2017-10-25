@@ -39,15 +39,14 @@ for (var i = 0; i < items.length; i++){
 	// $("#links").html(links)
 }
 
-//
-/* Display Each link on the front end as list items
+// Display Each link on the front end as list items
 links.forEach(function(link){
 	$("#links").append('<li><a href="#">' + link + '</li>');
 }) 
-*/
+
 
 JSON.stringify(links);
-console.log(links);
+console.log(JSON.stringify(links));
 
 /*
 4. Convert the 'links' array into a JSON string. Do a console.log of that JSON string, copy the results from the terminal and paste them into the input box at http://jsonlint.com/
