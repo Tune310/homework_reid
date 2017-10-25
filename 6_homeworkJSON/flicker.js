@@ -36,7 +36,15 @@ var links = [];
 for (var i = 0; i < items.length; i++){
 	// console.log(items[i]["link"]);
 	links.push(items[i]["link"]);
+	// $("#links").html(links)
 }
+
+//
+/* Display Each link on the front end as list items
+links.forEach(function(link){
+	$("#links").append('<li><a href="#">' + link + '</li>');
+}) 
+*/
 
 JSON.stringify(links);
 console.log(links);
