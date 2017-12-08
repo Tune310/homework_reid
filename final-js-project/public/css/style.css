@@ -33,6 +33,7 @@ h3 {
 }
 #update-form {
   display: block;
+  margin: 5px 0px;
 }
 .post-header {
   padding-left: 0px;
@@ -80,4 +81,8 @@ div.date {
 
 div.date p {
   display: inherit;
+}
+
+button.update {
+  margin: 5px 0px;
 }
