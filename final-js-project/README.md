@@ -1,0 +1,1 @@
+You can plase your project in here or use the 2_sample_project folder for the class code along

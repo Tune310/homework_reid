@@ -1,0 +1,83 @@
+body {
+  font-family: sans-serif;
+  margin: 3em;
+  padding: 0;
+  background-color: #DDD;
+}
+#post-head{
+    margin-bottom: 0px;
+    position: relative;
+    top: 10px;
+}
+h3 {
+    color: black;
+}
+.btn {
+    margin-top: 5px;
+}
+
+.disco {
+	width: 100px;
+	height: 100px;
+	border: 1px solid black;
+}
+
+.blog-post {
+	border: 1px solid black;
+}
+
+.flex {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 10px;
+}
+#update-form {
+  display: block;
+}
+.post-header {
+  padding-left: 0px;
+  display: flex;
+  width: 210px;
+  justify-content: space-between;
+  margin-bottom: 18px;
+}
+
+.dropdown-item {
+  display: block;
+}
+
+.open>.dropdown-menu {
+  background:rgba(255,255,255, 0.8);
+}
+
+.blog-post {
+  width: 800px;
+  margin-bottom: 10px;
+  padding-left: 3px;
+  background-color: white;
+}
+
+.btn-sm {
+  background-color: black;
+  color: white;
+}
+
+.btn-sm:focus, .btn-sm:hover {
+  color: #8a8080 !important;
+}
+
+p.text {
+  font-size: 16px;
+}
+
+.blog-post h4 {
+  display: inline;
+}
+
+div.date {
+  display: inline-block;
+}
+
+div.date p {
+  display: inherit;
+}
